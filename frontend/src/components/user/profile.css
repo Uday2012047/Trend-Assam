@@ -1,0 +1,80 @@
+.profileContainer {
+  margin-top: 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow-x: hidden;
+}
+
+.profileContainer > div {
+  width: 10vmax;
+  height: 10vmax;
+  margin-bottom: 2rem;
+}
+
+.profileContainer > div > img {
+  width: 10vmax;
+  height: 10vmax;
+  border-radius: 50%;
+}
+
+.profile-details {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.profile-details > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.addmail {
+  color: var(--color-red);
+}
+
+.addmail > p {
+  font-size: 12px;
+  font-weight: 100;
+}
+.profile-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 6rem;
+  overflow-x: hidden;
+}
+
+.profile-actions p:hover {
+  cursor: pointer;
+}
+
+.profile-actions > a {
+  border: none;
+  background-color: var(--color-light-one);
+  color: var(--color-dark);
+  font: 300 1vmax;
+  width: 100%;
+  padding: 3vmax;
+  cursor: pointer;
+  transition: all 0.5s;
+  outline: none;
+  text-align: center;
+}
+
+.profile-actions > p {
+  border: none;
+  background-color: var(--color-light-one);
+  color: var(--color-red);
+  font: 300 1vmax;
+  width: 100%;
+  padding: 3vmax;
+  cursor: pointer;
+  transition: all 0.5s;
+  outline: none;
+  text-align: center;
+}
